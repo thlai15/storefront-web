@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: storefront-web
+  description: Next.js storefront frontend, consumes storefront-api.
+  annotations:
+    github.com/project-slug: thlai15/storefront-web
+  tags:
+    - nextjs
+    - typescript
+spec:
+  type: website
+  lifecycle: experimental
+  owner: user:thlai15
+  system: storefront
+  consumesApis:
+    - storefront-api
