@@ -11,7 +11,7 @@ metadata:
 spec:
   type: website
   lifecycle: experimental
-  owner: user:thlai15
+  owner: group:frontend-team
   system: storefront
   consumesApis:
     - storefront-api
