@@ -1,0 +1,20 @@
+replicaCount: 1
+
+image:
+  repository: storefront-web
+  tag: local
+  pullPolicy: IfNotPresent
+
+service:
+  port: 3000
+
+ingress:
+  host: storefront.local
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    cpu: 250m
+    memory: 256Mi
