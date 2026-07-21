@@ -5,6 +5,7 @@ metadata:
   description: Next.js storefront frontend, consumes storefront-api.
   annotations:
     github.com/project-slug: thlai15/storefront-web
+    grafana/alert-label-selector: value
     grafana/dashboard-selector: "tags @> 'storefront-web'"
   tags:
     - nextjs
