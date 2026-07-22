@@ -1,0 +1,5 @@
+site_name: 'storefront-web'
+nav:
+  - Home: index.md
+plugins:
+  - techdocs-core
