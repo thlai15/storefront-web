@@ -1,4 +1,4 @@
 image:
   repository: storefrontyw15i4.azurecr.io/storefront-web
 ingress:
-  host: http://storefront.20.236.45.125.nip.io/
+  host: storefront.20.236.45.125.nip.io
